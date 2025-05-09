@@ -1,10 +1,10 @@
-# 🍝 Philosophers – 42 School Project
+# Philosophers – 42 School Project
 
 The **Philosophers** project is a synchronization challenge that simulates the dining philosophers problem using multiple threads. Each philosopher alternates between thinking and eating. They need two forks to eat, and can only hold one fork at a time. The goal is to avoid deadlock and ensure that no philosopher is starving.
 
 ---
 
-## 🎯 Main Objectives
+## Main Objectives
 
 - Implement synchronization and mutual exclusion with threads.
 - Ensure all philosophers can eat without starving or deadlocking.
@@ -14,7 +14,7 @@ The **Philosophers** project is a synchronization challenge that simulates the d
 
 ---
 
-## 🧠 Problem Breakdown
+## Problem Breakdown
 
 - **Philosophers:** Each philosopher alternates between thinking and eating. They need two forks to eat, but can only hold one fork at a time.
 - **Forks:** There are five forks in total, one for each philosopher, placed between them.
@@ -23,7 +23,7 @@ The **Philosophers** project is a synchronization challenge that simulates the d
 
 ---
 
-## 🧪 Example Usage
+## Example Usage
 
 ```bash
 $ make
